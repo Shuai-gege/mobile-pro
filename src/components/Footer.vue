@@ -10,7 +10,7 @@
           :src="props.active ? icon.homeActive : icon.homeNormal"
         />
       </van-tabbar-item>
-      <van-tabbar-item to="/hot">
+      <!-- <van-tabbar-item to="/hot">
         <span>发现</span>
         <img
           slot="icon"
@@ -36,7 +36,7 @@
           :class="props.active ?'active':''"
           :src="props.active ? icon.orderActive : icon.orderNormal"
         />
-      </van-tabbar-item>
+      </van-tabbar-item>-->
       <!-- <van-tabbar-item to="/my" v-if="model!=2">
         <span>我的</span>
         <img

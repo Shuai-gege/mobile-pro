@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store/index'
+import "./common/filters"
 import "@/permission"
 
 import 'lib-flexible/flexible' //px转为rem
@@ -11,6 +12,7 @@ Vue.prototype.axios = http;
 //瀑布流插件
 import waterfall from 'vue-waterfall2'
 Vue.use(waterfall)
+    //全局过滤器
 
 import Vant from 'vant';
 import 'vant/lib/index.css';

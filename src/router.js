@@ -13,6 +13,15 @@ export default new Router({
                 ifShow_FootBar: true,
                 title: "首页"
             }
+        }, {
+            path: '/hot/:id',
+            name: 'hot',
+            component: () =>
+                import ('./views/hot/hot.vue'),
+            meta: {
+                ifShow_FootBar: true,
+                title: "热卖"
+            }
         }
 
     ]
